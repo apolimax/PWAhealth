@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css" type="text/css">
+    <title>PWAhealth - Bem-vindo</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/090747f2b3.js" crossorigin="anonymous"></script>
+
+    <style>
+        .imagem-1 {
+            width: 400px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <header class="cabecalho">
+            <!-- <h1 class="titulo"><a href="index.html">PWAhealth</a></h1> -->
+            <div class="titulo">
+                <h1><a href="index.html"><img src="./src/images/logoPWA.png"></a></h1>
+                <h3>Garanta o funcionamento de seus equipamentos médicos conosco</h3>
+            </div>
+
+            <nav>
+                <ul class="centralizar">
+                    <li class="espacar-link"><a href="login.html">Login</a></li>
+                    <li class="espacar-link"><a href="./sobre.html">Sobre</a></li>
+                    <li class="espacar-link"><a href="./contato.html" style="margin-right: 150px;">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-home">
+            <h2 class="title">Bem-vindo, clique em algum equipamento abaixo para começar</h2>
+            <div class="tabContainer">
+                <div class="buttonContainer">
+                    <button onclick="showPanel(0, '#2196f3')">Incubadora 1</button>
+                    <button onclick="showPanel(1, '#2196f3')">Incubadora 2</button>
+                    <!-- <button onclick="showPanel(2, '#2196f3')">Tab 3</button>
+                    <button onclick="showPanel(3, '#ff5722')">Tab 4</button> -->
+                </div>
+                <div class="tabPanel">
+                    <img src="./src/images/inc3.jpg" alt="inc3">
+                </div>
+                <div class="tabPanel">
+                    <img src="./src/images/inc2.png" alt="inc3">
+                </div>
+                <!-- <div class="tabPanel">Tab 3: Content</div>
+                <div class="tabPanel">Tab 4: Content</div> -->
+            </div>
+        </main>
+
+        <footer>
+
+            <div class="elementos-footer">
+
+                <div class="institucional">
+                    <h3 style="margin-left: 40px;">Institucional</h3>
+                    <ul>
+                        <li>Empresa</li>
+                        <li>Formas de pagamento</li>
+                        <li>Política de Troca e Devolução</li>
+                        <li>Dúvidas frequentes</li>
+                    </ul>
+                </div>
+
+                <div id="novidade-promocoes">
+                    <h3>Assine nossa Newsletter</h3>
+                    <form action="#">
+                        <input type="text" name="nome" placeholder="Nome" style="margin-bottom: 2px;"> <br>
+                        <input type="text" name="email" placeholder="E-mail" style="margin-bottom: 2px;"> <br>
+                        
+                    </form>
+                    <a class="cadastrar">Cadastrar</a>
+                </div>
+
+                <div class="redes-sociais">
+                    <h3>Redes Sociais</h3>
+                    <div class="icones">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <p style="text-align: center; margin-bottom: 6px;">Endereço: Instituto Metrópole Digital/CIVT, UFRN, Av.Cap.
+                Mor Gouveia, nº 3000 - Lagoa Nova, Natal/RN CEP: 59.078-970</p>
+
+        </footer>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

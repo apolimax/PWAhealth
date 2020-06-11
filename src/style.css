@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #1E88E5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 150px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    filter: drop-shadow(1px 1px 1px #0D47A1);
+}
+
+.titulo img {
+    height: 88px;
+    width: 292px;
+}
+
+
+img {
+    height: 250px;
+    width: 250px;
+    /*text-align: center;*/
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*.centralizar a:hover {
+    background-color: #0D47A1;
+    border: 0 solid #0D47A1;
+    padding: 2px;
+    border-radius: 6px;
+    font-weight: bold;
+}*/
+
+.centralizar a:hover {
+    /* background-color: #0D47A1;
+    border-radius: 6px; */
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.espacar-link {
+    margin: 10px 10px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1E88E5;
+    color: white;
+    position: fixed;
+    /* position: relative; */
+    bottom: 0;
+    /* right: 0; */
+    left: 0;
+    width: 100%;
+}
+
+.elementos-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.novidade-promocoes {
+    /*margin: 0 auto;*/
+    /* flex: content; */
+    /* align-items: flex-end; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cadastrar {
+    background-color: white;
+    color: #1E88E5;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 1px 8px;
+    cursor: pointer;
+    /* margin-top: 4px; */
+}
+
+.institucional {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.institucional ul {
+    list-style: none;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 200px;
+    height: 200px; */
+    margin-right: 6px;
+}
+
+.icones i {
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* HOME */
+
+.main-home {
+    margin-top: 32px;
+    color: black;
+    font-weight: normal;
+    min-height: 100%;
+}
+
+.home-imagens {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+/* SOBRE */
+
+.imagens-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-sobre {
+    margin-top: 32px;
+    color: #0b6abd;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+/* .main-sobre {
+    margin-top: 32px;
+    color: black;
+    font-weight: normal;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+} */
+
+.main-sobre h2 {
+    text-align: center;
+}
+
+.texto {
+    margin-top: 32px;
+    color: #404040;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.2rem;
+}
+
+.main-home .texto {
+    text-align: center;
+}
+
+
+/* LOGIN */
+
+.main-login {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.main-login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-login form input {
+    outline-color: #1E88E5;
+}
+
+.button {
+    background-color: #1E88E5;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+.button:hover {
+    /* color: white;
+    text-shadow: 2px 2px 4px #000000; */
+    box-shadow: 2px 2px 6px blue;
+}
+
+.acessar-sistema {
+    text-align: center; 
+    margin-top: 32px; 
+    color: #0b6abd
+}
+
+/* CONTATO */
+
+.main-contato {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-contato form input, textarea {
+    outline-color: #1E88E5;
+}
+
+.contato-header {
+    text-align: center; 
+    margin-top: 32px; 
+    color: #0b6abd
+}
+
+.main-contato img {
+    height: 316px;
+    width: 600px;
+}
+
+/* bem-vindo.html */
+.title {
+    font-family: 'Montserrat', sans-serif;
+    /* color: #dc2d5e; */
+    text-align: center;
+    margin-top: 32px; 
+    color: #0b6abd;
+    margin-bottom: 32px;
+}
+
+.tabContainer {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+}
+
+.buttonContainer {
+    height: 15%;
+}
+
+.buttonContainer button {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #eeeeee;
+}
+
+.buttonContainer button:hover {
+    background-color: #d7d4d4;
+}
+
+.tabContainer .tabPanel {
+    height: 85%;
+    background-color: gray;
+    color: white;
+    /* text-align: center; */
+    /* padding-top: 105px; */
+    border: 2px solid #2196f3;
+    border-radius: 0 8px 8px 8px;
+    box-sizing: border-box;
+    font-size: 22px;
+    display: none;
+}
